@@ -10,9 +10,6 @@ const cors = require('cors');
 const app = express();
 app.use(bodyParser.json());
 
-app.use(cors({
-    origin: 'https://01-web.formation-adapeco-sofip.com/02/02',
-}));
 
 
 connectToDb();
