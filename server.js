@@ -3,9 +3,6 @@ const mysql = require('mysql2');
 const bodyParser = require('body-parser');
 const connectToDb = require('./db.js');
 require('dotenv').config();
-const cors = require('cors');
-
-
 
 const app = express();
 app.use(bodyParser.json());
