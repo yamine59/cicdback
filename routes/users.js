@@ -7,7 +7,7 @@ const connectToDb = require("../db.js");
 const jwt = require("jsonwebtoken");
 
 router.get('/test', (req, res) => {
-  res.status(200).json({ coucou: "test" });
+  res.status(200).json({ coucou: "test pour moh le debile" });
 });
 
 
